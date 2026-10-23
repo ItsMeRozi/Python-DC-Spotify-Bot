@@ -198,7 +198,7 @@ async def on_ready():
 
 @client.command()
 async def shutdown(ctx):
-    if ctx.author.id == 440491887745564672:
+    if ctx.author.id == :
         await ctx.send("Shutting down... Goodbye!")
         await client.close()
     else:
